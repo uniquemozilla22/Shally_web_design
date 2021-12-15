@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../Assets/cropped-logo-shelly.png.webp'
+import Bar from './Bar/Bar'
 import Contact from './contact/contact'
 import './Navigation.css'
 
@@ -19,6 +20,8 @@ const Navigation = () => {
                     <Contact title="Address" number="Franklin St, Greenpoint" icon="map-marker-alt"/>
                 </div>
             </div>
+            <Bar/>
+            
         </>
     )
 }
