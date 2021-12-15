@@ -13,10 +13,10 @@ const modalReducer=(state=initialState, action)=>{
     switch(action.type){
 
         case CARTMODAL:{
-            return cartModal(state.cartModal)
+            return cartModal(state)
         }
         case SIDEBARMODAL:{
-            return SidebarModal(state.SidebarModal)
+            return SidebarModal(state)
         }
         default:
             return state

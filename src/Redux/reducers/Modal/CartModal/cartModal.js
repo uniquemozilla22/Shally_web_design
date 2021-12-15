@@ -1,7 +1,7 @@
 
 
 const cartModal =(initalStateValue)=>{
-    return !initalStateValue
+    return {...initalStateValue , cartModal:!initalStateValue.cartModal}
 }
 
 

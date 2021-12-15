@@ -1,7 +1,7 @@
 
 
 const SidebarModal = (initalValue)=>{
-    return !initalValue
+    return {...initalValue , sidebarModal:!initalValue.sidebarModal}
 }
 
 

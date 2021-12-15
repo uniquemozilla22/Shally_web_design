@@ -11,7 +11,6 @@ const Contact = ({title, number,icon}) => {
                                 <span className="detail">{number}</span>
                             </a>
                         </div>
-
                     </div>
         </>
     )

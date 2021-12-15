@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
 import { NavLink } from 'react-router-dom'
 import './Sidebar.css'
 
 const Sidebar = () => {
 
-    const [state , dispatch] = useSelector()
+    const [isSidebarActive,setSidebarActive] =useState(true)
+
+    const dispatch =useDispatch()
+
+
+    const sidebarHandler =(e)=>{
+        const isSidebarClicked = e.target.classList.contains("section__sidebar")
+        if(isSidebarClicked){
+            setSidebarActive(!isSidebarActive)
+        }
+    }
+
     return (
-        <section className="section__sidebar">
+        <section className={"section__sidebar "+isSidebarActive?"section__hide__sidebar":""} onClick={(e)=>sidebarHandler(e)}>
             <div className="section__sidebar__container">
                 <div className="sidebar_close">
                 <i className="fas fa-times fa-2x"></i>

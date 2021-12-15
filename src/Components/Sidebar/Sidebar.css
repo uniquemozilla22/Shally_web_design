@@ -27,3 +27,8 @@
     padding-top:1rem;
     font-size:1.2rem;
 }
+
+
+.section__hide__sidebar{
+    display: none;
+}
