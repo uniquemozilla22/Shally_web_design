@@ -1,8 +1,10 @@
-import { CARTMODAL } from "../../actions/types/types"
+import { CARTMODAL, SIDEBARMODAL } from "../../actions/types/types"
 import cartModal from "./CartModal/cartModal"
+import SidebarModal from "./SidebarModal/SidebarModal"
 
 const initialState={
-    cartModal:false
+    cartModal:false,
+    sidebarModal:false
 }
 
 
@@ -12,6 +14,9 @@ const modalReducer=(state=initialState, action)=>{
 
         case CARTMODAL:{
             return cartModal(state.cartModal)
+        }
+        case SIDEBARMODAL:{
+            return SidebarModal(state.SidebarModal)
         }
         default:
             return state

@@ -6,7 +6,7 @@ import './Navigation.css'
 
 const Navigation = () => {
     return (
-        <>
+        <nav>
             <div className="navigation-bar">
                 <div className="navigation_logo">
                     <img src={Logo} alt="Logo" height={"60px"}/>
@@ -22,7 +22,7 @@ const Navigation = () => {
             </div>
             <Bar/>
             
-        </>
+        </nav>
     )
 }
 

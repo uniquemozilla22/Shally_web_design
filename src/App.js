@@ -8,13 +8,13 @@ import Layout from './Layout';
 const App= ()=> {
   
   return (
-    <div className="App container">
+    <>
       <Layout>
         <Routes>
           <Route path="/" element={<Home/>}/>
         </Routes>
       </Layout>
-    </div>
+    </>
   );
 }
 
