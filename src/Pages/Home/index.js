@@ -5,7 +5,7 @@ import Layout from '../../Layout'
 
 const Home = () => {
     return (
-        <main className="container">
+        <main>
             <Banner/>
             <AboutBanner/>
         </main>

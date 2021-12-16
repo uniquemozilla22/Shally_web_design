@@ -4,6 +4,7 @@ import BannerImg from '../../Assets/banner-img.png'
 
 const Banner = () => {
     return (
+        <>
         <section class="banner-section main-banner">
             <div class="container">
                 <div class="row align-items-center">
@@ -30,8 +31,10 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+            <h1 className="title_name">Shelly</h1>
         </section>
-    )
+</>
+)
 }
 
 export default Banner
