@@ -1,0 +1,17 @@
+.about-banner{
+    padding:2rem 0;
+}
+
+
+.about-banner .about-content .about-heading>h2{
+    color: #2b2b2b;
+    font-size: 48.77px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.about-banner .about-content .about-heading> h2 > span{
+    color:#f37335;
+
+}
