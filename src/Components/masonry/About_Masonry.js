@@ -22,12 +22,8 @@ const About_Masonry = () => {
   };
     return (
         <div className={classes.about_masonry_container+" "+classes.masonry+ " "}>
-                <Masonry
+                <ul
                 className={classes.photo_list}
-                elementType={"ul"}
-                options={masonryOptions}
-                disableImagesLoaded={false}
-                updateOnEachImageLoad={false}
                 >
                     <li className={classes.photo_item}>
                         <img src={img1} />
@@ -38,26 +34,7 @@ const About_Masonry = () => {
                     <li className={classes.photo_item}>
                         <img src={img3} />
                     </li>
-                    <li className={classes.photo_item}>
-                        <img src={img4} />
-                    </li>
-                    <li className={classes.photo_item}>
-                        <img src={img5} />
-                    </li>
-                    <li className={classes.photo_item}>
-                        <img src={img6} />
-                    </li>
-                    <li className={classes.photo_item}>
-                        <img src={img7} />
-                    </li>
-                    <li className={classes.photo_item}>
-                        <img src={img8} />
-                    </li>
-                    <li className={classes.photo_item}>
-                        <img src={img9} />
-                    </li>
-
-                </Masonry>
+                </ul>
             </div>
     )
 }
