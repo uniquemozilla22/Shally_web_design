@@ -1,0 +1,20 @@
+
+.courses-banner__section .content-container > h1.course-title{
+    color: #2b2b2b;
+    font-size:3.3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 1;
+}
+
+.courses-banner__section .image-container{
+    background-image: url("../../Assets/courseBg.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.courses-banner__section .course_card_container .card:nth-child(2){
+    left:-5rem;
+}
