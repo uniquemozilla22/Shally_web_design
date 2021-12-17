@@ -1,0 +1,70 @@
+.teacher-banner{
+    padding:4rem 0;
+}
+
+.teacher-banner .banner-title__container{
+    margin-bottom:2rem;
+}
+
+.teacher-banner .banner-title__container > h2.banner-title{
+    font-size:3.3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.teacher-banner .banner-title__container > p{
+    color: #575757;
+    font-size: 14.23px;
+    line-height: 22.35px;
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.teacher-banner .teacher-profile__container .teacher-card {
+    background:transparent;
+    box-shadow: none;
+}
+
+.teacher-banner .teacher-profile__container .teacher-card .details-container {
+    padding-left:0;
+    padding-right:0;
+}
+
+.teacher-banner .teacher-profile__container .teacher-card .details-container > h5{
+    color: #2b2b2b;
+    font-size: 18.29px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+}
+
+
+.teacher-banner .teacher-profile__container .teacher-card .details-container > p{
+    display: block;
+    color: #155799;
+    font-size: 14.23px;
+    font-weight: 600;
+}
+
+.teacher-banner .teacher-profile__container .teacher-card .teacher-image__container{
+    position:relative;
+}
+.teacher-banner .teacher-profile__container .teacher-card .teacher-image__container .card-icon__container{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 40px;
+    background: linear-gradient(180deg,#fdc830,#f37335);
+    z-index: 99;
+    text-align: center;
+    border-radius: 30px;
+    padding: 8px 0 11px;
+    font-size: 1.1rem;
+    height:40px;
+    color:white;
+
+}
+.teacher-banner .teacher-profile__container .teacher-card .teacher-image__container > img.card-img-top{
+    border-radius :20px 
+}
