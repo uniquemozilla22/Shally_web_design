@@ -1,15 +1,15 @@
 import React from 'react'
 import classes from './About_Masonry.module.css'
-import Masonry from 'react-masonry-component'
+// import Masonry from 'react-masonry-component'
 import img1 from '../../Assets/masonry/gallery1.jpg'
 import img2 from '../../Assets/masonry/gallery2.jpg'
 import img3 from '../../Assets/masonry/gallery3.jpg'
-import img4 from '../../Assets/masonry/gallery4.jpg'
-import img5 from '../../Assets/masonry/gallery5.jpg'
-import img6 from '../../Assets/masonry/gallery6.jpg'
-import img7 from '../../Assets/masonry/gallery7.jpg'
-import img8 from '../../Assets/masonry/gallery8.jpg'
-import img9 from '../../Assets/masonry/gallery9.jpg'
+// import img4 from '../../Assets/masonry/gallery4.jpg'
+// import img5 from '../../Assets/masonry/gallery5.jpg'
+// import img6 from '../../Assets/masonry/gallery6.jpg'
+// import img7 from '../../Assets/masonry/gallery7.jpg'
+// import img8 from '../../Assets/masonry/gallery8.jpg'
+// import img9 from '../../Assets/masonry/gallery9.jpg'
 
 const About_Masonry = () => {
     const imagesLoadedOptions = { background: '.my-bg-image-el' }

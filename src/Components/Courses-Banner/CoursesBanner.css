@@ -1,4 +1,6 @@
-
+.courses-banner__section{
+    padding:5rem;
+}
 .courses-banner__section .content-container > h1.course-title{
     color: #2b2b2b;
     font-size:3.3rem;

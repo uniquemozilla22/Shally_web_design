@@ -13,7 +13,7 @@ const CoursesBanner = () => {
                             <h1 className="course-title">Find Your Courses</h1>
                             <p>ullam fringilla ipsum sed enim scelerisque, ac porttitor libero egestas. Donec iaculis nisi eget bibendum efficitur. Lorem ipsum dolor sit</p>
                         </div>
-                        <div className="image-container">
+                        <div className="image-container d-none d-lg-block ">
                             <img src={courseImage} alt="course Image" />
                         </div>
                     </div>
