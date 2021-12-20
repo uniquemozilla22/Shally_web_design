@@ -4,7 +4,7 @@ import classes from './contact.module.css'
 const Contact = ({ title, number, icon }) => {
     return (
         <>
-            <div className={classes.contact__container + " contact__card"}>
+            <div className={classes.contact__container + " contact__card d-none d-lg-block"}>
                 <div className={classes.contact_title}>
                     <i className={"fas fa-" + icon}></i>
                     <a href="">

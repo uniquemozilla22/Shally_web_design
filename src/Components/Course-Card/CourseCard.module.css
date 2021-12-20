@@ -1,15 +1,20 @@
 .background_course_card {
-    box-shadow: 0 0 10px rgb(21 87 153 / 8%);
-    background: linear-gradient(180deg,#fdc830,#f37335);
-    border-radius: 1rem;
-    position: relative;
-    margin-bottom: 3rem;
-    overflow: hidden;
-    padding-left:0.5rem;
+  box-shadow: 0 0 10px rgb(21 87 153 / 8%);
+  background: linear-gradient(180deg, #fdc830, #f37335);
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  transition: padding 0.5s ease-in-out;
 }
 
-.background_course_card .course_card{
-    background:#fff;
+.background_course_card:hover {
+  padding-left: 0;
+}
+
+.background_course_card .course_card {
+  background: #fff;
 }
 
 .course_card .course_date_price {

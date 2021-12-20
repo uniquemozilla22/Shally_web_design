@@ -10,23 +10,23 @@ const Newsletter = () => {
                         <div className="title_and_link_container">
                             <h1>Join Us <br />and stay tuned!</h1>
                             <a>
-                                <i className="fa fa-long-arrow-alt-right"></i>Join Us
+                                <i className="fa fa-long-arrow-alt-right"></i>Join
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-8 col-lg-8">
                         <div className="form_container container">
                             <form className="row">
-                                <div className="form-group col-md-4">
+                                <div className="form-group col-lg-4 col-md-12 py-2">
                                     <input placeholder="Name" type="text" className="form-control form-control-sm" />
                                 </div>
-                                <div className="form-group col-md-4">
+                                <div className="form-group col-lg-4 col-md-12 py-2">
                                     <input placeholder="Email" type="email" className="form-control form-control-sm" />
                                 </div>
-                                <div className="form-group col-md-4">
+                                <div className="form-group col-lg-4 col-md-12 py-2">
                                     <input placeholder="Class" type="text" className="form-control form-control-sm" />
                                 </div>
-                                <div className="text_area_news form-group col-md-12">
+                                <div className="text_area_news form-group col-lg-12 col-md-12 py-2">
                                     <textarea placeholder="Message" className="form-control" rows="10"></textarea>
                                 </div>
                             </form>

@@ -3,6 +3,7 @@ import './Footer.css'
 import LogoFooter from '../../Assets/logo__footer.png'
 import Contact from '../Navigation/contact/contact'
 import { Link } from 'react-router-dom'
+import Social from '../Navigation/Social/Social'
 
 const Footer = () => {
     return (
@@ -40,6 +41,17 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div class="widget widget-iframe">
                             <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        </div>
+                    </div>
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                        <hr />
+                        <div className="copyright_wrapper">
+                            <p>© Copyrights 2020 Shelly All rights reserved</p>
+                            <div className="footer_social_links">
+                                <Social icon="facebook-f" />
+                                <Social icon="linkedin-in" />
+                                <Social icon="instagram" />
+                            </div>
                         </div>
                     </div>
                 </div>

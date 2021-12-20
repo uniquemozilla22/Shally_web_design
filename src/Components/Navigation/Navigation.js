@@ -21,7 +21,7 @@ const Navigation = () => {
                     <Contact title="Call" number="+977 9846464" icon="phone" />
                     <Contact title="Working Time" number="Monday to Friday" icon="clock" />
                     <Contact title="Address" number="Franklin St, Greenpoint" icon="map-marker-alt" />
-                    <div className="sidebar__toggler" onClick={() => dispatch(ToggleSidebar)}>
+                    <div className="sidebar__toggler d-block d-lg-none " onClick={() => dispatch(ToggleSidebar)}>
                         <i className="fas fa-bars"></i>
                     </div>
                 </div>

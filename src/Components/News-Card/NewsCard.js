@@ -2,10 +2,10 @@ import React from 'react'
 import classes from './NewsCard.module.css'
 
 
-const NewsCard = ({date,title,description,postedBy,tag,lang ,img}) => {
+const NewsCard = ({ date, title, description, postedBy, tag, lang, img }) => {
     return (
-        <div className={"card "+classes.news_card__container}>
-            <div className={classes.image_background+" bg-image hover-overlay ripple"} data-mdb-ripple-color="dark">
+        <div className={"card " + classes.news_card__container}>
+            <div className={classes.image_background + " bg-image hover-overlay"} data-mdb-ripple-color="dark">
                 <div className={classes.image_container}>
                     <img
                         src={img}

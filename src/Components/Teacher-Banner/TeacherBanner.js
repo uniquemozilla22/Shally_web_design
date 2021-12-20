@@ -12,7 +12,7 @@ const TeacherBanner = () => {
                     <p>Quisque id ultrices tellus, ac sodales ex. Cras nec ante viverra, bibendum justo eget, lacinia dui. Donec ligula ligula, elementum sit amet</p>
                 </div>
                 <div className="row teacher-profile__container">
-                    <div className="col-lg-3 col-md-4 col-sm-6">
+                    <div className="col-6 col-lg-3 col-md-4 col-sm-6 col-xs-6">
                         <div class="card teacher-card">
                             <div className="teacher-image__container">
                                 <img
@@ -34,7 +34,7 @@ const TeacherBanner = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6">
+                    <div className="col-6 col-lg-3 col-md-4 col-sm-6  col-xs-6">
                         <div class="card teacher-card">
                             <div className="teacher-image__container">
                                 <img
@@ -56,7 +56,7 @@ const TeacherBanner = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6">
+                    <div className="col-6 col-lg-3 col-md-4 col-sm-6  col-xs-6">
                         <div class="card teacher-card">
                             <div className="teacher-image__container">
                                 <img
@@ -78,7 +78,7 @@ const TeacherBanner = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6">
+                    <div className="col-6 col-lg-3 col-md-4 col-sm-6  col-xs-6">
                         <div class="card teacher-card">
                             <div className="teacher-image__container">
                                 <img
@@ -100,7 +100,6 @@ const TeacherBanner = () => {
 
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

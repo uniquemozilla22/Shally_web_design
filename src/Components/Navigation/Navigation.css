@@ -1,6 +1,6 @@
 .navigation-bar {
   display: flex;
-  padding: 1rem 0;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
   border-bottom: 0.5px solid #ccc;
@@ -69,16 +69,4 @@
 .navigation-bar .navigation_contact .sidebar__toggler {
   display: none;
   font-size: 1.8rem;
-}
-
-@media only screen and (max-width: 1199px) {
-  .navigation-bar .navigation_contact .contact_card {
-    display: none;
-  }
-  .navigation-bar .navigation_contact .sidebar__toggler {
-    display: block;
-  }
-  .navigation__bar__items {
-    display: none;
-  }
 }
