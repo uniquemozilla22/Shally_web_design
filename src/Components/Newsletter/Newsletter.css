@@ -1,0 +1,103 @@
+.newsletter__section {
+  margin-bottom: -7%;
+}
+
+.newsletter__section .newsletter__container {
+  background: linear-gradient(90deg, #fdc830, #f37335);
+  background-repeat: no-repeat;
+  padding: 57px 100px 55px;
+  border-radius: 40px;
+  background-position: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter__section .newsletter__container .title_and_link_container h1 {
+  color: #2b2b2b;
+  font-size: 36.58px;
+  line-height: 3.3rem;
+  margin-bottom: 33px;
+  font-weight: 700;
+}
+.newsletter__section .newsletter__container .title_and_link_container a {
+  display: inline-block;
+  color: #fff;
+  font-size: 18.29px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  background-color: #135e9e;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 60px;
+  position: relative;
+  border-radius: 30px;
+  transition: all 0.4s ease-in-out;
+}
+
+.newsletter__section .newsletter__container .title_and_link_container i {
+  background-color: #fff;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50px;
+  color: #155799;
+  position: absolute;
+  top: 50%;
+  transition: all 0.4s ease-in-out;
+  left: 6px;
+  transform: translateY(-50%);
+}
+
+.newsletter__section .newsletter__container::before {
+  content: "";
+  position: absolute;
+  bottom: 46px;
+  left: 0;
+  width: 59px;
+  height: 115px;
+  background-image: url("../../Assets/lashlights.png");
+  background-repeat: no-repeat;
+}
+
+.newsletter__section .newsletter__container::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  width: 78px;
+  height: 100px;
+  background-image: url("../../Assets/newsbackgroundimage2.png");
+  background-repeat: no-repeat;
+}
+
+.newsletter__section .newsletter__container .form_container input,
+.newsletter__section .newsletter__container .form_container select,
+.newsletter__section .newsletter__container .form_container textarea {
+  width: 100%;
+  background-color: #fddead;
+  height: 40px;
+  line-height: 40px;
+  color: #575757;
+  font-size: 14.23px;
+  padding: 0 16px;
+  border-radius: 20px;
+  border: 0;
+  font-style: italic;
+}
+
+.newsletter__section .newsletter__container .form_container textarea {
+  color: #575757;
+  font-size: 14.23px;
+  background-color: #fddead;
+  height: 70px;
+  width: 100%;
+  border-radius: 20px;
+  border: 0;
+  resize: none;
+  padding: 10px 15px;
+}
+
+.newsletter__section .newsletter__container .form_container .text_area_news {
+  margin: 1rem 0;
+}

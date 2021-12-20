@@ -1,17 +1,18 @@
 import React from 'react'
+import classes from './contact.module.css'
 
-const Contact = ({title, number,icon}) => {
+const Contact = ({ title, number, icon }) => {
     return (
         <>
-            <div className="contact__container contact__call">
-                        <div className="contact-title">
-                            <i className={"fas fa-"+icon}></i>
-                            <a href="">
-                                <span>{title}</span>
-                                <span className="detail">{number}</span>
-                            </a>
-                        </div>
-                    </div>
+            <div className={classes.contact__container + " contact__card"}>
+                <div className={classes.contact_title}>
+                    <i className={"fas fa-" + icon}></i>
+                    <a href="">
+                        <span>{title}</span>
+                        <span className={classes.detail}>{number}</span>
+                    </a>
+                </div>
+            </div>
         </>
     )
 }

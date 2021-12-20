@@ -1,0 +1,35 @@
+.contact__container {
+  padding-left: 3rem;
+  margin: 10px 0;
+}
+
+.contact__container .contact_title {
+  display: flex;
+  align-items: center;
+}
+
+.contact__container .contact_title a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  align-content: flex-start;
+}
+
+.contact__container .contact_title span {
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.contact__container .contact_title i {
+  color: #f37335;
+  font-size: 1.5rem;
+}
+
+.contact__container .contact_title span.detail {
+  color: #575757;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
