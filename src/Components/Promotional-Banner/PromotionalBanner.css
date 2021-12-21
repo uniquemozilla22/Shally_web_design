@@ -1,0 +1,25 @@
+.promotional_banner__section {
+  padding: 5% 0;
+}
+
+.promotional_banner__section .banner__container {
+  background: url("../../Assets/promotionalBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding: 115px 80px 127px;
+  position: relative;
+  z-index: 1;
+}
+
+.promotional_banner__section .banner__container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #fff, #fff);
+  z-index: -1;
+  opacity: 0.3;
+}
