@@ -1,0 +1,20 @@
+.about_benefit__section {
+  padding: 8% 0;
+}
+
+.about_benefit__section .section__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about_benefit__section .section__content .intro__title {
+  color: #2b2b2b;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.about_benefit__section .section__content .intro__title > span {
+  color: #f37335;
+}

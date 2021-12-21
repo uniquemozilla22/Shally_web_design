@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import LinkButton from '../LinkButton/LinkButton'
 import './Classes.css'
 
 const Classes = () => {
@@ -203,10 +204,7 @@ const Classes = () => {
                     </div>
                 </div>
                 <div className="class_navigation_container">
-                    <Link to="./">
-                        <i className="fa fa-long-arrow-alt-right"></i>
-                        Classes
-                    </Link>
+                    <LinkButton name="Classes" link="./" />
                 </div>
             </div>
         </div>

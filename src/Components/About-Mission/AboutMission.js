@@ -3,13 +3,15 @@ import { animated, useSpring, useSprings } from 'react-spring'
 import "./AboutMission.css"
 import AboutImage2 from '../../Assets/aboutImage.png'
 
-const AboutMission = () => {
+const AboutMission = ({ useAnimationStyle }) => {
     const zoomIn = useSpring({
         loop: false,
         from: { scale: 0.2 },
         to: { scale: 1 },
         delay: 400,
     })
+
+
     return (
         <div className="about_mission__section">
             <div className="container">
@@ -20,7 +22,7 @@ const AboutMission = () => {
                         </animated.div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">
-                        <animated.div className="content__wrapper">
+                        <animated.div style={useAnimationStyle(400)} className="content__wrapper">
                             <h3>About Us</h3>
                             <h2>Our Mission</h2>
                             <p>Praesent rhoncus justo erat, sed sollicitudin arcu malesuada vel. Etiam scelerisque justo ut purus luctus ullamcorper. Vivamus vitae elit ligula. Fusce eu rutrum nisl.</p>
@@ -29,7 +31,6 @@ const AboutMission = () => {
                                 <li>Donec blandit, sapien eu porttitor blandit</li>
                                 <li>Sed at urna at massa viverra feugiat non</li>
                             </ul>
-
                         </animated.div>
                     </div>
                 </div>
