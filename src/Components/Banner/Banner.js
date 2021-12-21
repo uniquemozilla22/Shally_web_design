@@ -1,16 +1,32 @@
 import React from 'react'
 import './Banner.css'
 import BannerImg from '../../Assets/banner-img.png'
+import { animated, useSpring } from 'react-spring'
 
 const Banner = () => {
+
+    const appear = useSpring({
+        loop: false,
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+        delay: 500
+    })
+
+
+    const slide = useSpring({
+        loop: false,
+        from: { x: 100 },
+        to: { x: 0 },
+    })
+
     return (
         <>
             <section class="banner-section main-banner">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-7 col-md-12">
-                            <div class="banner-text wow fadeInLeft" data-wow-duration="1000ms" style={{ "visibility": "visible" }}>
-                                <h2>The Smarter Way to Learn <span> Anything</span></h2>
+                            <animated.div class="banner-text " style={appear}>
+                                <h2 >The Smarter Way to Learn <span> Anything</span></h2>
                                 <p>
                                     Mauris malesuada enim eget blandit gravida. Duis hendrerit cursus turpis, id mollis est rutrum nec. Sed interdum nisi id libero tincidunt, sit amet vestibulum tortor porttitor. Cras ligula lacus, ullamcorper sed
                                 </p>
@@ -20,13 +36,13 @@ const Banner = () => {
                                         <i class="fa fa-search"></i>
                                     </button>
                                 </form>
-                            </div>
+                            </animated.div>
                         </div>
-                        <div class="col-lg-5 col-md-5">
+                        <div class="col-lg-5 col-md-5" >
                             <div class="banner-img wow zoomIn d-none d-lg-block" data-wow-duration="1000ms" style={{ "visibility": "visible" }}>
-                                <img src={BannerImg} alt="" />
+                                <animated.img src={BannerImg} alt="" style={slide} />
                             </div>
-                            <div class="elements-bg wow zoomIn" data-wow-duration="1000ms" style={{ "transform-style": "preserve-3d", "visibility": "visible", "transformOrigin": "center center 0px", "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)" }}>
+                            <div class="elements-bg wow zoomIn" data-wow-duration="1000ms" >
                             </div>
                         </div>
                     </div>

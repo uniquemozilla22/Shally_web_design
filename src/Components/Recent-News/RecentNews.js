@@ -16,13 +16,13 @@ const RecentNews = () => {
                 <div className="news_card__container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-xs-12">
-                            <NewsCard img={news1} lang="English" date="12/09/2020" postedBy="Admin" tag={["Teachers", "School"]} title="Campus clean workshop" description="Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a laoreet erat ornare sit amet" />
+                            <NewsCard delay={200} img={news1} lang="English" date="12/09/2020" postedBy="Admin" tag={["Teachers", "School"]} title="Campus clean workshop" description="Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a laoreet erat ornare sit amet" />
                         </div>
                         <div className="col-lg-4 col-md-6 col-xs-12">
-                            <NewsCard img={news2} lang="Nepali" date="12/09/2020" postedBy="Admin" tag={["Teachers", "School"]} title="Campus clean workshop" description="Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a laoreet erat ornare sit amet" />
+                            <NewsCard delay={300} img={news2} lang="Nepali" date="12/09/2020" postedBy="Admin" tag={["Teachers", "School"]} title="Campus clean workshop" description="Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a laoreet erat ornare sit amet" />
                         </div>
                         <div className="col-lg-4 col-md-6 col-xs-12">
-                            <NewsCard img={news3} lang="Spanish" date="12/09/2020" postedBy="Admin" tag={["Teachers", "School"]} title="Campus clean workshop" description="Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a laoreet erat ornare sit amet" />
+                            <NewsCard delay={600} img={news3} lang="Spanish" date="12/09/2020" postedBy="Admin" tag={["Teachers", "School"]} title="Campus clean workshop" description="Nam mattis felis id sodales rutrum. Nulla ornare tristique mauris, a laoreet erat ornare sit amet" />
                         </div>
                     </div>
                 </div>

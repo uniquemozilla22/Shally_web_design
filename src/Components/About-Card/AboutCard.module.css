@@ -1,5 +1,7 @@
-
-.card_about_image{
-    height:50px;
-    margin-bottom: 20px;
+.about_card {
+  margin: 1rem 0;
+}
+.card_about_image {
+  height: 50px;
+  margin-bottom: 20px;
 }

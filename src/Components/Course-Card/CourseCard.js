@@ -1,10 +1,18 @@
 import React from 'react'
 import classes from './CourseCard.module.css'
 import AvatarIcon from '../../Assets/avatarIcon.png'
+import { animated, useSpring } from 'react-spring'
 
-const CourseCard = ({ location, postedBy, name, date, price }) => {
+const CourseCard = ({ location, postedBy, name, date, price, delay }) => {
+
+    const slide = useSpring({
+        loop: false,
+        from: { x: 100, opacity: 0 },
+        to: { x: 0, opacity: 1 },
+        delay
+    })
     return (
-        <div className={"card " + classes.background_course_card}>
+        <animated.div style={slide} className={"card " + classes.background_course_card}>
             <div className={classes.course_card}>
                 <div className={classes.course_header + " card-header"}>
                     <div className={classes.course_date_price}>
@@ -31,7 +39,7 @@ const CourseCard = ({ location, postedBy, name, date, price }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </animated.div>
     )
 }
 

@@ -1,10 +1,18 @@
 import React from 'react'
+import { animated, useSpring } from 'react-spring'
 import classes from './NewsCard.module.css'
 
-
-const NewsCard = ({ date, title, description, postedBy, tag, lang, img }) => {
+const NewsCard = ({ date, title, description, postedBy, tag, lang, img, delay }) => {
+    const useAnimationStyle = () => {
+        return useSpring({
+            loop: false,
+            from: { y: 50, opacity: 0 },
+            to: { y: 0, opacity: 1 },
+            delay
+        })
+    }
     return (
-        <div className={"card " + classes.news_card__container}>
+        <animated.div style={useAnimationStyle()} className={"card " + classes.news_card__container}>
             <div className={classes.image_background + " bg-image hover-overlay"} data-mdb-ripple-color="dark">
                 <div className={classes.image_container}>
                     <img
@@ -27,7 +35,7 @@ const NewsCard = ({ date, title, description, postedBy, tag, lang, img }) => {
                 </p>
                 <a href="#!" className={classes.linking_tag}> Read More  <i class="fas fa-arrow-right"></i></a>
             </div>
-        </div>
+        </animated.div>
     )
 }
 
