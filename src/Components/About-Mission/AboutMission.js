@@ -14,13 +14,23 @@ const AboutMission = () => {
         <div className="about_mission__section">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12">
                         <animated.div style={zoomIn} className="image__container">
                             <img src={AboutImage2} alt="About Image 2 "></img>
                         </animated.div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                        <div className=""></div>
+                    <div className="col-lg-6 col-md-12 col-sm-12">
+                        <animated.div className="content__wrapper">
+                            <h3>About Us</h3>
+                            <h2>Our Mission</h2>
+                            <p>Praesent rhoncus justo erat, sed sollicitudin arcu malesuada vel. Etiam scelerisque justo ut purus luctus ullamcorper. Vivamus vitae elit ligula. Fusce eu rutrum nisl.</p>
+                            <ul className="mission__list">
+                                <li>Etiam ante nisl, maximus vitae sem non, dignissim</li>
+                                <li>Donec blandit, sapien eu porttitor blandit</li>
+                                <li>Sed at urna at massa viverra feugiat non</li>
+                            </ul>
+
+                        </animated.div>
                     </div>
                 </div>
             </div>
