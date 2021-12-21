@@ -29,4 +29,3 @@ const AboutMission = () => {
 }
 
 export default AboutMission
-``

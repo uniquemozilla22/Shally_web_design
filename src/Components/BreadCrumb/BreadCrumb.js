@@ -7,7 +7,7 @@ const BreadCrumb = () => {
     const [pageName, setPageName] = useState(location.pathname.split("/"))
     useEffect(() => {
         setPageName(location.pathname.split("/"))
-    }, [pageName])
+    }, [location.pathname])
     return (
         <div className={classes.section_breadcrumb}>
             <div className="container">
