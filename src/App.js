@@ -4,14 +4,16 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import './App.css'
 import Layout from './Layout';
+import About from './Pages/About/About';
 
-const App= ()=> {
-  
+const App = () => {
+
   return (
     <>
       <Layout>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Layout>
     </>

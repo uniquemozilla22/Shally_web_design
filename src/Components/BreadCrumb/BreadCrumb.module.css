@@ -1,0 +1,70 @@
+.section_breadcrumb {
+  padding: 5rem 0;
+  position: relative;
+  background: url("../../Assets//breadcrumbBG.png"), #f2f7fd;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: stretch;
+}
+
+.section_breadcrumb .title_background {
+  color: #f37335;
+  font-size: 162.6px;
+  font-weight: 600;
+  opacity: 0.1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section_breadcrumb h1.BreadCrumb_title {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.section_breadcrumb .BreadCrumb_navigation {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.section_breadcrumb .BreadCrumb_navigation li {
+  display: inline-block;
+  color: #575757;
+  font-size: 14.23px;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+}
+
+.section_breadcrumb
+  .BreadCrumb_navigation
+  li:not(:last-child, :first-child)
+  a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 1px;
+  height: 15px;
+  margin-left: 2px;
+  background-color: #575757;
+  transform: translateY(-50%);
+  margin-left: 5px;
+}
+
+.section_breadcrumb .BreadCrumb_navigation li a {
+  color: #575757;
+  position: relative;
+}
+
+.section_breadcrumb .BreadCrumb_navigation li i {
+  margin-left: 0.5rem;
+}
