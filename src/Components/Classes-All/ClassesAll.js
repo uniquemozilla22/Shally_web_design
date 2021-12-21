@@ -1,7 +1,7 @@
 import React from 'react'
 import { animated, useSpring } from 'react-spring'
 import ClassesCard from '../Classes-Card/ClassesCard.js'
-import Pagination from '../Pagination/Pagination.js'
+import './ClassesAll.css'
 
 const ClassesAll = () => {
     const useFadeup = (delay) => useSpring({
@@ -52,8 +52,6 @@ const ClassesAll = () => {
                     </animated.div>
 
                 </div>
-                <Pagination />
-
             </div>
         </div>
     )
