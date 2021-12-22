@@ -22,9 +22,9 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="footer_address">
-                            <Contact title="Call" number="+977 9846464" icon="phone" />
-                            <Contact title="Working Time" number="Monday to Friday" icon="clock" />
-                            <Contact title="Address" number="Franklin St, Greenpoint" icon="map-marker-alt" />
+                            <Contact title="Call" number="+977 9846464" icon="phone" smaller />
+                            <Contact title="Working Time" number="Monday to Friday" icon="clock" smaller />
+                            <Contact title="Address" number="Franklin St, Greenpoint" icon="map-marker-alt" smaller />
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
