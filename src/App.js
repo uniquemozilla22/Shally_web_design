@@ -7,6 +7,7 @@ import Layout from './Layout';
 import About from './Pages/About/About';
 import Classes from './Pages/Classes/Classes';
 import Teacher from './Pages/Teacher/Teacher';
+import Blog from './Pages/Blog/Blog';
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/teachers" element={<Teacher />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </Layout>
     </>

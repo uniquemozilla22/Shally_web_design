@@ -1,6 +1,7 @@
 .news_card__container {
   background: none;
   box-shadow: none !important;
+  margin-top: 4rem;
 }
 
 .news_card__container .image_container:hover img {
@@ -21,6 +22,7 @@
   border-radius: 20px;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  width: 100%;
 }
 
 .news_card__container .image_container .title_image {
@@ -29,17 +31,21 @@
   left: 20px;
   padding: 0 20px;
   color: #2b2b2b;
-  font-size: 14.23px;
+  font-size: 1.2rem;
   height: 24px;
   line-height: 24px;
   background-color: #ffd31d;
   border-radius: 30px;
 }
 
+.news_card__container .news_card__details h5 {
+  font-size: 1.5rem;
+}
+
 .news_card__container .news_card__details {
   display: flex;
   color: #575757;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
   justify-content: space-between;
 }
@@ -51,6 +57,6 @@
 .news_card__container .linking_tag {
   display: inline-block;
   color: #155799;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
