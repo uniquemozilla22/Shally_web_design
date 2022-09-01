@@ -1,7 +1,7 @@
-# <a href="https://uniquemozilla22.github.io/Shally_web_design/contacts">Shally Web</a>
+# <a href="https://uniquemozilla22.github.io/Shally_web_design">Shally Web</a>
 
 This application is based on React and React - Redux.
-Checkout the Hosted Version  <a href="https://uniquemozilla22.github.io/Shally_web_design/contacts">here </a>
+Checkout the Hosted Version  <a href="https://uniquemozilla22.github.io/Shally_web_design">here </a>
 
 ## Technology Used
 ![image](https://user-images.githubusercontent.com/49606627/187988974-a9babbc4-02fc-4364-b1c2-66b3875d2a29.png)
