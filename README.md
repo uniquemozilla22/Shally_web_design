@@ -5,9 +5,6 @@ Checkout the Hosted Version  <a href="https://uniquemozilla22.github.io/Shally_w
 
 ## Technology Used
 
-<div style="display:flex; justify-content:flex-start; gap:1rem; width:100%">
-![image](https://user-images.githubusercontent.com/49606627/187988616-c4e52995-31d6-4301-923f-5e862cc958c4.png)
-</div>
 
 ## Screenshots
 
